@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    padding: 0;   
+}
+.headerSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: lightgray;
+    height: 50px;
+}
+.headerSection .header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 400px;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Verdana', 'Arial Narrow', Arial, sans-serif;
+    padding: 100px 30px;
+}
+.headerSection .header .items a{
+    text-decoration: none;
+    color: dimgray;
+    font-size: 28px;
+
+}
+.nameTitleSection{
+    height: 700px;
+    flex: 1;
+    background-color: black;
+    color: white;
+    font-size: 42px;
+    font-family: fantasy,sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nameTitleSection .name{
+    font-size: 40px;
+}
+.description{
+    text-align: right;
+}
